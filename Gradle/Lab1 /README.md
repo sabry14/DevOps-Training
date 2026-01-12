@@ -9,8 +9,8 @@ This repository demonstrates a complete **Gradle workflow** for building and run
 Clone the source code from GitHub:
 
 ```bash
-git clone https://github.com/Ibrahim-Adel15/build2.git
-cd build2
+git clone https://github.com/Ibrahim-Adel15/build1.git
+cd build1
 ```
 
 ![Step 1 Screenshot](screenshot/clone.png)
@@ -25,7 +25,7 @@ Execute the unit tests for the project:
 ./gradlew test
 ```
 
-![Step 2 Screenshot](test.png)
+![Step 2 Screenshot](screenshot/test.png)
 
 ---
 
@@ -37,7 +37,7 @@ Assemble the project and create the JAR file:
 ./gradlew build
 ```
 
-![Step 3 Screenshot](build.png)
+![Step 3 Screenshot](screenshot/build.png)
 
 ---
 
@@ -49,4 +49,4 @@ Execute the application:
 ./gradlew run
 ```
 
-![Step 4 Screenshot](run.png)
+![Step 4 Screenshot](screenshot/run.png)
