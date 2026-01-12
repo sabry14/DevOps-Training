@@ -22,7 +22,7 @@ cd build1
 Execute the unit tests for the project:
 
 ```bash
-./gradlew test
+gradle test
 ```
 
 ![Step 2 Screenshot](screenshot/test.png)
@@ -34,7 +34,7 @@ Execute the unit tests for the project:
 Assemble the project and create the JAR file:
 
 ```bash
-./gradlew build
+gradle build
 ```
 
 ![Step 3 Screenshot](screenshot/build.png)
@@ -46,7 +46,7 @@ Assemble the project and create the JAR file:
 Execute the application:
 
 ```bash
-./gradlew run
+java -jar build/libs/ivolve-app.jar
 ```
 
 ![Step 4 Screenshot](screenshot/run.png)
