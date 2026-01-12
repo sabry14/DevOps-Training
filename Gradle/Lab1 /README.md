@@ -13,7 +13,7 @@ git clone https://github.com/Ibrahim-Adel15/build2.git
 cd build2
 ```
 
-![Step 1 Screenshot](screenshots/clone.png)
+![Step 1 Screenshot](screenshot/clone.png)
 
 ---
 
