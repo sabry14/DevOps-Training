@@ -46,14 +46,14 @@ git clone https://github.com/Ibrahim-Adel15/Docker-1.git
 ```bash
 docker build -t app1 .
 ```
-![build](maven-screenshot/build.png)
+![build](lab3/build.png)
 
 ## 3. Run the Container
 
 ```bash
 docker run -d -p 8080:8080 --name container1 app1
 ```
-![run](maven-screenshot/run.png)
+![run](lab3/run.png)
 
 ## 4. Test the Application
 
@@ -61,7 +61,7 @@ docker run -d -p 8080:8080 --name container1 app1
 curl http://localhost:8080
 or open http://localhost:8080
 ```
-![test](maven-screenshot/test.png)
+![test](lab3/test.png)
 
 ## 5. Stop and Remove the Container
 
