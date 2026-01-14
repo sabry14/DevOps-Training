@@ -17,7 +17,7 @@ https://github.com/Ibrahim-Adel15/Docker-1.git
 git clone https://github.com/Ibrahim-Adel15/Docker-1.git
 cd Docker-1
 ```
-![screen](lab4-screenshot/clone)
+![screen](lab4-screenshot/clone.png)
 ### Step 2: Build the Application
 
 ```bash
@@ -27,7 +27,8 @@ mvn clean package
 The generated JAR file will be created at:
 
 target/demo-0.0.1-SNAPSHOT.jar
-![screen](lab4-screenshot/build)
+
+![screen](lab4-screenshot/build.png)
 ### Step 3: Create Dockerfile
 Create a file named Dockerfile with the following content:
 
@@ -45,19 +46,19 @@ CMD ["java","-jar","app.jar"]
 docker build -t app2 .
 ```
 
-Check image size:
+### Check image size:
 
 ```bash
 docker images app2
 ```
 
-![screen](lab4-screenshot/size)
+![screen](lab4-screenshot/size.png)
 ### Step 5: Run Container
 ```bash
 docker run -d -p 8080:8080 --name container2 app2
 ```
 
-![screen](lab4-screenshot/run)
+![screen](lab4-screenshot/run.png)
 ### Step 6: Test the Application
 
 Open your browser and go to:
@@ -65,7 +66,7 @@ Open your browser and go to:
 http://localhost:8080
 ```
 
-![screen](lab4-screenshot/test)
+![screen](lab4-screenshot/test.png)
 
 ## Conclusion
 
