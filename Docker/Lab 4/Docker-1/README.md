@@ -45,7 +45,7 @@ CMD ["java","-jar","app.jar"]
 ```bash
 docker build -t app2 .
 ```
-
+![screen](lab4-screenshot/Dbuild.png)
 ### Check image size:
 
 ```bash
