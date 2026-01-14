@@ -10,7 +10,7 @@ https://github.com/Ibrahim-Adel15/Docker-1.git
 ```bash
 git clone https://github.com/Ibrahim-Adel15/Docker-1.git
 ```
-![screen](lab5-screenshot/clone)
+![screen](lab5-screenshot/clone.png)
 ### 2. Create a multi-stage Dockerfile using Maven for build and Java runtime for execution.
 
 ```bash
@@ -33,19 +33,19 @@ CMD ["java", "-jar", "app.jar"]
 ```bash
 docker build -t app3 .
 ```
-![screen](lab5-screenshot/build)
+![screen](lab5-screenshot/build.png)
 ### 4. Run the container:
 
 ```bash
 docker run -d -p 8080:8080 --name container3 app3
 ```
-![screen](lab5-screenshot/run)
+![screen](lab5-screenshot/run.png)
 ### 5. Test the application using a browser or curl:
 
 ```bash
 http://localhost:8080
 ```
-![screen](lab5-screenshot/test)
+![screen](lab5-screenshot/test.png)
 
 ## Notes
 - Multi-stage builds reduce final image size
