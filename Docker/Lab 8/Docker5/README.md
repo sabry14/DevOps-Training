@@ -214,37 +214,9 @@ docker network inspect ivolve-network
 
 ---
 
-## 🔟 Access Applications via Browser
 
-* **frontend1:** [http://localhost:5001](http://localhost:5001)
-* **frontend2:** [http://localhost:5002](http://localhost:5002)
 
-📸 *Screenshot: Browser access*
 
----
-
-## 🗑️ Cleanup
-
-```bash
-docker stop frontend1 frontend2 backend
-docker rm frontend1 frontend2 backend
-```
-
-Delete the custom network:
-
-```bash
-docker network rm ivolve-network
-```
-
-Verify:
-
-```bash
-docker network ls
-```
-
-📸 *Screenshot: Network removed*
-
----
 
 ## ✅ Conclusion
 
@@ -254,7 +226,3 @@ docker network ls
 
 ---
 
-## 🧑‍💻 Author
-
-**Mohamed Sabry**
-DevOps Training – Docker Lab 8
