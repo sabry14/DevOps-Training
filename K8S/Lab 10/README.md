@@ -82,7 +82,7 @@ Taints: node=worker:NoSchedule
 
 ---
 
-## Step 6 (Optional): Validate NoSchedule Behavior
+## Step 6: Validate NoSchedule Behavior
 
 A test pod was created without any tolerations:
 
@@ -110,3 +110,4 @@ This lab successfully demonstrated:
 * Observing the effect of taints on pod scheduling
 
 ---
+
